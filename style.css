@@ -111,3 +111,48 @@ body{
 	display: flex;
 	align-items: center;
 }
+.about-area {
+	overflow: hidden;
+	padding: 64px 0 0 0;
+	background: url(image/about-bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+.about-left-image {
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+.about-left-image img {
+	width: 338px;
+}
+.about-right {
+	width: 50%;
+	float: left;
+}
+.about-area .container {
+	display: flex;
+	align-items: center;
+}
+.about-content h2 {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 54px;
+	font-feature-settings: 'liga' off;
+	color: #707070;
+	padding-bottom: 30px;
+}
+.about-content p {
+	font-family: Manrope;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 32px;
+	font-feature-settings: 'liga' off;
+	color: #18191F;
+	padding-bottom: 90px;
+    max-width:444px;
+}
